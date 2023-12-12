@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGAPAY.AIKOHEART</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <img id="a" src="png2.png">
+        <a href="#" class="logo">AIKO HEART</a>
+        <div class="bx menu" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>     
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </header>
+    
+<!---------home start---------->
+<section class="home" id="home">
+    <div class="home-text">
+        <img id="b" src="png3.png">
+        <h1>Hello, I'm Aiko</h1>
+        <h2>I develop 3d visuals, user <br> interfaces and web applications</h2>
+        <h3>INTRODUCTION</h3> <br>
+        <p>As a computer science student, I major in computing and technology with basic knowledge in C, C++, python and C# programming Languages. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!</p><br>
+        <p>I believe that, "Learning never ends!"</p>
+        <br>
+        <a href="https://resume.io/r/RCzZueZAD" class="btn">Resume</a>
+    </div>
+
+    <div class="home-img">
+    <img src="home.jpeg">
+</section>
+
+<!---------about start---------->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="about.jpeg">
+    </div>
+
+    <div class="about-text">
+        <div class="about-me">
+            <img id="c" src="png4.png">
+            <img id="h" src="png7.png">
+            <span><strong>ABOUT ME<strong></strong></span>
+            <h2>I'm Aiko Heart and A Passionate Developer.</h2>
+            <ul>
+                <li><strong>Birthday:</strong> 14 February 2005</li>
+                <li><strong>Age:</strong> 18</li>
+                <li><strong>Website:</strong> AGAPAY.AIKOHEART</li>
+                <li><strong>Email:</strong> <a href="mailto:aikohearteagapay@gmail.com">aikohearteagapay@gmail.com</a></li>
+                <li><strong>Freelance:</strong> Available</li>
+            </ul>
+        </div>
+        
+        <a href="https://resume.io/r/RCzZueZAD" class="about-btn">Resume</a>
+    </div>
+
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('education')">EDUCATION</p>
+        <p class="tab-links" onclick="opentab('skills')">SKILLS</p>
+        <p class="tab-links" onclick="opentab('interests')">INTERESTS</p>
+    </div>
+    <div class="tab-contents active-tab" id="education">
+        <ul>
+            <li><span><strong>COLLEGE</strong> <br> (August 2023-Present) <br> Bachelor of Science in Computer Science (BSCS), Gordon College </span></li>
+            <li><span><strong>SENIOR HIGH SCHOOL</strong> <br> (August 2023-Present) <br> Central Luzon College of Science and Technology </span></li>
+            <li><span><strong>HIGH SCHOOL</strong> <br> (2017-2021) <br> Barretto National High School </span></li>
+            <li><span><strong>ELEMENTARY</strong> <br> (2010-2017)  <br> Barretto I Elementary School </span></li>
+        </ul>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span><strong>COMPUTER SKILLS</strong> <br> Oriented in Microsoft Office applications such as: <br> Microsoft Office PowerPoint and Microsoft Office Word </span></li>
+            <li><span><strong>PERSONAL SKILLS</strong> <br> Ability to work in a demanding environment <br> Determined for all the tasks assigned to me <br> 
+                Leadership Skills <br>
+                Communication Skills <br>
+                Proficient in English Languages </span></li>
+        </ul>    
+    </div>
+    <div class="tab-contents active-tab" id="interests">
+        <ul>
+            <li><span><strong>TECHNOLOGY-RELATED SKILLS</strong> <br> photo and video editing; content creation; podcasting </span></li>
+            <li><span><strong>ART SKILLS</strong>  <br> graphic design and photography </span></li>
+            <li><span><strong>SOCIAL-RELATED SKILLS</strong> <br> public speaking </span></li>
+        </ul>
+    <div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+    </div>
+</section>
+
+<!---------projects start---------->
+    <section class="projects" id="projects">
+        <div class="heading">
+            <img id="d" src="png5.png">
+            <span><strong>PROJECTS</strong></span>
+            <p>Following projects showcase my skills and experience through real-world examples of my <br> work. Each project is briefly described with links to code repositories and live demos in it. It <br> reflects my ability to solve complex problems, work with different technologies, and <br> manage projects effectively.</p>
+        </div>
+
+        <div class="projects-project">
+            <div class="box">
+                <div class="box-img">
+                    <img src="Screenshot 2023-11-26 193217.png">
+                    <img src="Screenshot 2023-11-26 193242.png"> 
+                </div>
+                <h2>FuelScout</h2>
+                <p>A mobile application designed to empower users by providing features for monitoring and managing their fuel consumption. Additionally, the app facilitates the convenience of ordering fuel directly through the platform, offering users a comprehensive solution for fuel tracking and replenishment.</p>
+        </div>
+
+    </section>
+
+<!---------blogs start---------->
+<section class="blogs" id="blogs">
+    <div class="blogs">
+        <img id="e" src="png6.png">
+        <h1><span><strong>BLOGS</strong></span></h1>
+    </div>
+
+    <div class="blogs-blog">
+        <div class="box">
+            <div class="box-img">
+                <a href="https://aikohearteagapay.wixsite.com/exploring-weblogs/blog">
+                    <img src="Screenshot 2023-11-26 200848.png" alt="Blog Image">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!---------contacts start---------->
+<section class="contacts" id="contacts">
+    <div class="container">
+        <img id="f" src="png8.png">
+        <img id="g" src="png9.png">
+        <div class="row">
+            <div class="row">
+                <h1>GET IN TOUCH</h1>
+            
+                <form action="process_form.php" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="What's your name?">
+            
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="What's your email?">
+            
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="What do you want to say?"></textarea>
+            
+                    <button type="submit">Send</button>
+
+            </form>
+        </div>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/ricklactica/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/rickchurian" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/ricklactica/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/juricksic" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+</section>
+
+<!---------Javascript---------->
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
